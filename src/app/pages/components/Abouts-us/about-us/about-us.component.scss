@@ -1,0 +1,38 @@
+.hero-image img {
+    
+    object-fit: cover;
+  }
+
+  /* Tablet Devices (768px and below) */
+  @media (max-width: 768px) {
+    .hero-image img {
+      height: 60vh; /* Adjust height for tablets */
+      object-fit: cover;
+    }
+
+    .hero-text h1 {
+      font-size: 2rem; /* Reduce heading size for better fit */
+    }
+  }
+
+  /* Mobile Devices (576px and below) */
+  @media (max-width: 576px) {
+    .hero-image img {
+      height: 50vh; /* Further adjust height for smaller screens */
+      object-fit: contain; /* Prevent cropping on small devices */
+    }
+
+    .hero-text h1 {
+      font-size: 1.5rem; /* Further reduce heading size */
+    }
+
+    .hero-text {
+      padding: 0 1rem; /* Add padding for readability */
+    }
+  }
+  .text_color
+{
+    color: #81c408 !important;
+}
+
+  

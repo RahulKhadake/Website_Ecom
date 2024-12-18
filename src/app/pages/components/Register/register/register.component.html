@@ -1,0 +1,39 @@
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card p-4 shadow-lg" style="max-width: 500px; width: 100%;">
+      <h3 class="text-center mb-4">Sign Up</h3>
+      <form>
+        <!-- Full Name -->
+        <div class="mb-3">
+          <label for="fullName" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+        </div>
+  
+        <!-- Email -->
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+  
+        <!-- Password -->
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Create a password" required>
+        </div>
+  
+        <!-- Confirm Password -->
+        <div class="mb-3">
+          <label for="confirmPassword" class="form-label">Confirm Password</label>
+          <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
+        </div>
+  
+        <!-- Signup Button -->
+        <button type="submit" class="btn btn-primary w-100" (click)="SignUp()">Sign Up</button>
+  
+        <!-- Already have an account -->
+        <p class="text-center mt-3">
+          Already have an account? <a routerLink="/Login" class="text-decoration-none">Login</a>
+        </p>
+      </form>
+    </div>
+  </div>
+  

@@ -1,0 +1,36 @@
+.container {
+    padding: 15px;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  form {
+    .form-label {
+      font-weight: 500;
+    }
+  
+    input {
+      border-radius: 5px;
+    }
+  
+    button {
+      border-radius: 5px;
+    }
+  }
+  
+  p {
+    font-size: 14px;
+  
+    a {
+      color: #007bff;
+      font-weight: 600;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
